@@ -90,7 +90,6 @@ exec --no-startup-id xfce4-power-manager &
 exec --no-startup-id system-config-printer-applet &
 exec --no-startup-id start-pulseaudio-x11 &
 exec --no-startup-id xfce4-volumed &
-exec --no-startup-id /opt/thefanclub/grive-tools/grive-indicator &
 exec --no-startup-id i3-msg 'workspace $vm; exec virt-manager'
 exec --no-startup-id i3-msg 'workspace $main; exec google-chrome-stable; exec urxvt'
 #exec --no-startup-id virsh start windows7
