@@ -1,4 +1,7 @@
 version 6.0
+filetype off
+call pathogen#infect()
+call pathogen#helptags()
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
@@ -17,10 +20,23 @@ set smartindent
 set softtabstop=4
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc,.png,.jpg
 set tabstop=4
-filetype plugin on
 syntax on
+filetype on
+filetype plugin on
+filetype plugin indent on
 let g:pydoc_cmd = '/usr/bin/pydoc'
 let g:pydoc_open_cmd = 'tabnew'
 let g:pydoc_highlight=0
 set number
+set foldmethod=indent
+set foldlevel=99
+let g:pep8_map='<leader>8' " cross-platform compatibility checking
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompleteionType = "context"
+set completeopt=menuone,longest,preview
+map <leader>td <Plug>TaskList 
+map <leader>g :GundoToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
+nmap <leader>a <Esc>:Ack!
+"let g:pyflakes_use_quickfix = 0 " disable pyflakes using quickfix window
 " vim: set ft=vim :
