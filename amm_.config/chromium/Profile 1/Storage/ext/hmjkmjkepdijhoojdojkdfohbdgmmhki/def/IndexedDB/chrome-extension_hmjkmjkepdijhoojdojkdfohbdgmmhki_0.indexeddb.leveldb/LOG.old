@@ -1,0 +1,3 @@
+2016/06/21-12:45:39.819 1761 Reusing MANIFEST /home/dunn/.config/chromium/Profile 1/Storage/ext/hmjkmjkepdijhoojdojkdfohbdgmmhki/def/IndexedDB/chrome-extension_hmjkmjkepdijhoojdojkdfohbdgmmhki_0.indexeddb.leveldb/MANIFEST-000001
+2016/06/21-12:45:39.820 1761 Recovering log #4
+2016/06/21-12:45:39.832 1761 Reusing old log /home/dunn/.config/chromium/Profile 1/Storage/ext/hmjkmjkepdijhoojdojkdfohbdgmmhki/def/IndexedDB/chrome-extension_hmjkmjkepdijhoojdojkdfohbdgmmhki_0.indexeddb.leveldb/000004.log 

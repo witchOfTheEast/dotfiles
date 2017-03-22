@@ -1,0 +1,157 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+body {
+	min-width: 300px;
+}
+.idvideo, .vdlButton, .helpLink {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	cursor:pointer;
+	background-color:#fff;
+	line-height: 28px;
+}
+
+.ytbnote {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	padding:2px;
+	font-weight:normal;
+}
+.ytbnote a{ text-decoration: none; color: #d00;}
+
+#idNoVideo {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	color:#555;
+	line-height: 28px;
+	font-weight:normal;
+	display :none;
+}
+.clHeader {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+    padding:2px;
+	font-weight:bold;
+}
+.clDownloadVideo {
+	margin-left:0px;
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	cursor:default;
+	width:200px;
+    padding:5px;
+	margin-bottom:10px;
+	float:left;
+}
+.wrap{ /*width: 390px;*/width: 330px; height: 60px; clear: both; }
+
+.clFileExt {
+	float:left;
+	font-size:10px;
+	width:30px;
+	font-family: arial, verdana, helvetica;
+	background-color:#fdd;
+	color:#000;
+	font-weight:bold;
+	margin-top:12px;
+	padding:1px;
+	cursor:default;
+	text-align:center;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+.clDownloadButton {
+	float:left;
+	font-size:9px;
+	width:60px;
+	font-family: arial, verdana, helvetica;
+	background: -webkit-linear-gradient(90deg, #4da5d8, #58d2fd);
+	color:#fff;
+	font-weight:normal;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right: 8px;
+	cursor:pointer;
+	text-align:center;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+}
+.sendButton {
+	float:right;
+	font-size:9px;
+	width:60px;
+	font-family: arial, verdana, helvetica;
+	background: -webkit-linear-gradient(90deg, #4d90fe,#4787ed);
+	color:#fff;
+	font-weight:normal;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:10px;
+	cursor:pointer;
+	text-align:center;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display: none;
+}
+.clDownloadButton:hover {
+	background-color:#495;
+}
+.vdlButton2 {
+	font-size:12px;
+	font-family: arial, verdana, helvetica;
+	background-color:#fff;
+	color:#777;
+	padding:2px;
+}
+.idvideo:hover,  .vdlButton:hover, .helpLink:hover {
+	border-top:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#f5f5f5;
+	color: #282828;
+	line-height: 26px;
+}
+.sep {
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#00aeef;
+	height:1px;
+}
+.sep3 {
+	margin-top:-4px;
+	margin-bottom:5px;
+	background-color:#00aeef;
+	height:1px;
+}
+.sep2 {
+	margin-top:-4px;
+	margin-bottom:10px;
+	background-color:#00aeef;
+	height:1px;
+	float:left;
+	/*width: 390px;*/
+	width: 330px;
+}
+.helpLink a{
+	text-decoration: none;
+	padding-right: 10px;
+	color: #f00;
+}
+
+</style>
+</head>
+<body>
+<div id="idNoVideo"></div>
+<div class="idvideo" id="idvideo"></div>
+<div> 
+  <div class="vdlButton" id="idaddvideo"></div>
+</div>
+<div id="idVideos"></div>
+<script src="js/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+2017/03/09-17:03:05.458 1428 Reusing MANIFEST /home/dunn/.config/chromium/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/03/09-17:03:05.458 1428 Recovering log #1793
+2017/03/09-17:03:05.459 1428 Reusing old log /home/dunn/.config/chromium/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/001793.log 
+2017/03/09-17:03:06.351 1428 Current memtable full; waiting...
+2017/03/09-17:03:06.351 2742 Level-0 table #1797: started
+2017/03/09-17:03:06.358 2742 Level-0 table #1797: 288647 bytes OK
+2017/03/09-17:03:06.361 2742 Delete type=0 #1793
+2017/03/09-17:03:06.361 2742 Level-0 table #1799: started
+2017/03/09-17:03:06.361 2742 Level-0 table #1799: 0 bytes OK
+2017/03/09-17:03:06.365 2742 Delete type=0 #1796
+2017/03/09-17:03:06.365 2742 Manual compaction at level-0 from '\x00|\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00}\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01\x02\x01\x19\x000\x002\x009\x001\x007\x003\x005\x004\x008\x009\x009\x007\x003\x000\x006\x002\x007\x006\x007\x001\x00_\x001\x00_\x00u\x00p' @ 268436 : 1
+2017/03/09-17:03:06.365 2742 Compacting 2@0 + 2@1 files
+2017/03/09-17:03:06.405 2742 Generated table #1800@0: 24 keys, 2369750 bytes
+2017/03/09-17:03:06.414 2742 Generated table #1801@0: 50 keys, 90947 bytes
+2017/03/09-17:03:06.415 2742 Compacted 2@0 + 2@1 files => 2460697 bytes
+2017/03/09-17:03:06.417 2742 compacted to: files[ 0 2 0 0 0 0 0 ]
+2017/03/09-17:03:06.417 2742 Delete type=2 #1797
+2017/03/09-17:03:06.418 2742 Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x19\x000\x002\x009\x001\x007\x003\x005\x004\x008\x009\x009\x007\x003\x000\x006\x002\x007\x006\x007\x001\x00_\x001\x00_\x00u\x00p' @ 268436 : 1 .. '\x00}\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/03/09-17:03:10.482 1428 Current memtable full; waiting...
+2017/03/09-17:03:10.482 2742 Level-0 table #1803: started
+2017/03/09-17:03:10.486 2742 Level-0 table #1803: 604 bytes OK
+2017/03/09-17:03:10.489 2742 Delete type=0 #1798
+2017/03/09-17:03:10.489 2742 Delete type=2 #1794
+2017/03/09-17:03:10.490 2742 Delete type=2 #1792
+2017/03/09-17:03:10.490 2742 Delete type=2 #1791
+2017/03/09-17:03:10.491 2742 Level-0 table #1805: started
+2017/03/09-17:03:10.491 2742 Level-0 table #1805: 0 bytes OK
+2017/03/09-17:03:10.494 2742 Delete type=0 #1802
+2017/03/09-17:03:10.494 2742 Manual compaction at level-0 from '\x00}\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00~\x00\x00\x00' @ 0 : 0; will stop at '\x00}\x00\x00\x05' @ 268535 : 1
+2017/03/09-17:03:10.494 2742 Compacting 1@0 + 2@1 files
+2017/03/09-17:03:10.521 2742 Generated table #1806@0: 24 keys, 2369750 bytes
+2017/03/09-17:03:10.526 2742 Generated table #1807@0: 49 keys, 90938 bytes
+2017/03/09-17:03:10.526 2742 Compacted 1@0 + 2@1 files => 2460688 bytes
+2017/03/09-17:03:10.528 2742 compacted to: files[ 0 2 0 0 0 0 0 ]
+2017/03/09-17:03:10.528 2742 Delete type=2 #1803
+2017/03/09-17:03:10.529 2742 Manual compaction at level-0 from '\x00}\x00\x00\x05' @ 268535 : 1 .. '\x00~\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/03/09-17:03:14.906 2742 Level-0 table #1809: started
+2017/03/09-17:03:14.962 2742 Level-0 table #1809: 4917405 bytes OK
+2017/03/09-17:03:14.965 2742 Delete type=2 #1800
+2017/03/09-17:03:14.966 2742 Delete type=2 #1801
+2017/03/09-17:03:14.966 2742 Delete type=0 #1804
+2017/03/11-07:26:25.863 2742 Level-0 table #1811: started
+2017/03/11-07:26:25.922 2742 Level-0 table #1811: 6466069 bytes OK
+2017/03/11-07:26:25.926 2742 Delete type=0 #1808
+2017/03/13-08:01:06.886 2742 Level-0 table #1813: started
+2017/03/13-08:01:06.953 2742 Level-0 table #1813: 4577507 bytes OK
+2017/03/13-08:01:06.961 2742 Delete type=0 #1810
+2017/03/14-16:09:04.954 1428 Current memtable full; waiting...
+2017/03/14-16:09:04.954 2742 Level-0 table #1815: started
+2017/03/14-16:09:04.990 2742 Level-0 table #1815: 3810284 bytes OK
+2017/03/14-16:09:04.996 2742 Delete type=0 #1812
+2017/03/14-16:09:04.997 2742 Compacting 4@0 + 2@1 files
+2017/03/14-16:09:04.999 2742 Level-0 table #1817: started
+2017/03/14-16:09:04.999 2742 Level-0 table #1817: 0 bytes OK
+2017/03/14-16:09:05.003 2742 Delete type=0 #1814
+2017/03/14-16:09:05.054 2742 Generated table #1818@0: 24 keys, 2370686 bytes
+2017/03/14-16:09:05.076 2742 Generated table #1819@0: 49 keys, 90928 bytes
+2017/03/14-16:09:05.076 2742 Compacted 4@0 + 2@1 files => 2461614 bytes
+2017/03/14-16:09:05.078 2742 compacted to: files[ 0 2 0 0 0 0 0 ]
+2017/03/14-16:09:05.079 2742 Delete type=2 #1815
+2017/03/14-16:09:05.079 2742 Manual compaction at level-0 from '\x00~\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x7f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/03/14-16:09:09.470 2742 Level-0 table #1821: started
+2017/03/14-16:09:09.513 2742 Level-0 table #1821: 4917405 bytes OK
+2017/03/14-16:09:09.516 2742 Delete type=2 #1813
+2017/03/14-16:09:09.517 2742 Delete type=2 #1806
+2017/03/14-16:09:09.517 2742 Delete type=2 #1807
+2017/03/14-16:09:09.517 2742 Delete type=0 #1816
+2017/03/14-16:09:09.518 2742 Delete type=2 #1811
+2017/03/14-16:09:09.520 2742 Delete type=2 #1809
+2017/03/14-16:14:05.870 2742 Level-0 table #1823: started
+2017/03/14-16:14:05.916 2742 Level-0 table #1823: 4740728 bytes OK
+2017/03/14-16:14:05.920 2742 Delete type=0 #1820
+2017/03/14-16:24:06.856 2742 Level-0 table #1825: started
+2017/03/14-16:24:06.901 2742 Level-0 table #1825: 4741192 bytes OK
+2017/03/14-16:24:06.904 2742 Delete type=0 #1822
+2017/03/15-12:36:56.799 2742 Level-0 table #1827: started
+2017/03/15-12:36:56.845 2742 Level-0 table #1827: 4193950 bytes OK
+2017/03/15-12:36:56.849 2742 Delete type=0 #1824
+2017/03/15-12:36:56.850 2742 Compacting 4@0 + 2@1 files
+2017/03/15-12:36:56.898 2742 Generated table #1828@0: 20 keys, 2370676 bytes
+2017/03/15-12:36:56.918 2742 Generated table #1829@0: 45 keys, 90907 bytes
+2017/03/15-12:36:56.918 2742 Compacted 4@0 + 2@1 files => 2461583 bytes
+2017/03/15-12:36:56.921 2742 compacted to: files[ 0 2 0 0 0 0 0 ]
+2017/03/15-12:36:56.921 2742 Delete type=2 #1819
+2017/03/15-12:36:56.921 2742 Delete type=2 #1818
+2017/03/15-12:36:56.922 2742 Delete type=2 #1823
+2017/03/15-12:36:56.923 2742 Delete type=2 #1827
+2017/03/15-12:36:56.924 2742 Delete type=2 #1821
+2017/03/15-12:36:56.925 2742 Delete type=2 #1825
+2017/03/16-00:37:08.872 2742 Level-0 table #1831: started
+2017/03/16-00:37:08.927 2742 Level-0 table #1831: 5892651 bytes OK
+2017/03/16-00:37:08.931 2742 Delete type=0 #1826
+2017/03/16-08:41:03.867 2742 Level-0 table #1833: started
+2017/03/16-08:41:03.931 2742 Level-0 table #1833: 5430392 bytes OK
+2017/03/16-08:41:03.934 2742 Delete type=0 #1830
+2017/03/16-09:51:10.851 2742 Level-0 table #1835: started
+2017/03/16-09:51:10.894 2742 Level-0 table #1835: 4837817 bytes OK
+2017/03/16-09:51:10.897 2742 Delete type=0 #1832

@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/logo_grey19.png",
+      "default_title": "Video Downloader Super"
+   },
+   "content_scripts": [ {
+      "css": [ "loader.css" ],
+      "js": [ "showlist/3rd/jquery-1.8.3.min.js", "js/loader.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google.com https://ssl.google-analytics.com https://connect.facebook.net/ https://cdn.dreamnetworld.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "16": "images/logo19.png",
+      "48": "images/logo48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUvmCU5ngiVE2pSOPh49qi4K/qJTsPt8+J0XUHw60J/EzYqFApCIkOQb5KonGbpi5MwZXNFQeJ7tSFXDhBSUsBZZOa48DOFI2CNc+wScFVAmzc7oNjlUuArVj2930ruC86Z4VIEn8awOUPsRhOTk7Yx8IwIOK3YSuQqKoRtmOZyBw+UcmGB13EwERUO/cQ0JqQCBolZmCrUrhrVK5rCPQKPcUifMgMRb5sfw3EyKwJZQb5sWXBuIuAsGji+nIF2NKmptEKTpv0gBGITcUq27u6hIZMx5wXVLXayMyppLSHrCDQO/i5vnubcEsSPJlr+IE5ncIfqVctDFmAKtRBGwTwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "showlist/index.html",
+   "permissions": [ "webRequest", "webRequestBlocking", "bookmarks", "tabs", "storage", "notifications", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.2.0",
+   "web_accessible_resources": [ "showlist/index.html", "showlist/js/L64P.js", "showlist/3rd/jquery-1.8.3.min.js", "showlist/js/data.js", "showlist/js/defaults.js", "showlist/js/showlist.js", "showlist/index.css" ]
+}

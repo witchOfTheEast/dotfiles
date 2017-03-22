@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "YouTube Заметка."
+   },
+   "appDesc": {
+      "message": "Поможет вам быстро загрузить видео с веб-сайтов или добавить в списки видео."
+   },
+   "appName": {
+      "message": "Помощник для загрузки видео"
+   },
+   "apply": {
+      "message": "Подтвердить"
+   },
+   "cancel": {
+      "message": "Отменить"
+   },
+   "close": {
+      "message": "закрыть"
+   },
+   "deffolder": {
+      "message": "Папка"
+   },
+   "done": {
+      "message": "Применить изменения"
+   },
+   "filter": {
+      "message": "Фильтровать видео"
+   },
+   "idVDL": {
+      "message": "Найдены видео файлы:"
+   },
+   "idaddvideo": {
+      "message": "Добавить видео в список видео"
+   },
+   "iddel": {
+      "message": "Удалить Топ Ссылку"
+   },
+   "iddelf": {
+      "message": "Удалить папку"
+   },
+   "idedit": {
+      "message": "Настроить Топ Ссылку"
+   },
+   "ideditf": {
+      "message": "Настроить название папки"
+   },
+   "idnovideo": {
+      "message": "Видео не найдены."
+   },
+   "idvideo": {
+      "message": "Показать список видео"
+   },
+   "idwhy": {
+      "message": "Почему?"
+   },
+   "langKey_backupnow": {
+      "message": "Сохранить сейчас"
+   },
+   "langKey_bkcolor": {
+      "message": "Выберите цвет фона"
+   },
+   "langKey_border": {
+      "message": "Выбрать границу"
+   },
+   "langKey_bordercolor": {
+      "message": "Выберите цвет границы ниже"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Показать фон темы:"
+   },
+   "langKey_checknodefaults": {
+      "message": "Настройка цветов"
+   },
+   "langKey_editToplinks": {
+      "message": "Переместить видео"
+   },
+   "langKey_helpvideo": {
+      "message": "Для добавления элементов в ваш список видео, воспроизведите видео из сайтов, перечисленных в нижней части этой страницы и затем щелкните этот на значок выше:"
+   },
+   "langKey_icon1": {
+      "message": "Показывать на каждой странице"
+   },
+   "langKey_icon2": {
+      "message": "Показать видео содержащееся на этой странице"
+   },
+   "langKey_icon3": {
+      "message": "Больше не показывать"
+   },
+   "langKey_settings": {
+      "message": "Настройки"
+   },
+   "langKey_textcolor": {
+      "message": "Выберите цвет текста"
+   },
+   "langKey_trans": {
+      "message": "Неясность Топ Ссылок"
+   },
+   "name": {
+      "message": "Имя"
+   },
+   "newToplink": {
+      "message": "новая Топ Ссылка"
+   },
+   "ok": {
+      "message": "Ок"
+   },
+   "original": {
+      "message": "Перейти на оригинальный сайт"
+   },
+   "ratetext": {
+      "message": "Оцените пожалуйста это Chrome расширение"
+   },
+   "resethelp": {
+      "message": "Сбросить кнопки помощи"
+   },
+   "resethelp2": {
+      "message": "Уверены что хотите сбросить настройки?"
+   },
+   "resettheme": {
+      "message": "Сбросить"
+   },
+   "search": {
+      "message": "Поиск"
+   },
+   "supported": {
+      "message": "Поддерживаемые видео сайты"
+   },
+   "videolist": {
+      "message": "видео"
+   }
+}

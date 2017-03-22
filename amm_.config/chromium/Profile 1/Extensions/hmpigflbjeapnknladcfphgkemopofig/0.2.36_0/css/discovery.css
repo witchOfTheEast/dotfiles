@@ -1,0 +1,27 @@
+.is-hidden {
+    display : none !important;
+}
+
+.is-column-sorted {
+    color : #00a0df !important;
+}
+
+.appTable {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    user-select: text;
+}
+
+.actionDialog {
+    width: 100%;
+    white-space: nowrap;
+    border-collapse: separate;
+    border-spacing: 0 16px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    user-select: text;
+}
+
+tr[data-mac]:hover td {
+    background : #F9F9FD;
+}

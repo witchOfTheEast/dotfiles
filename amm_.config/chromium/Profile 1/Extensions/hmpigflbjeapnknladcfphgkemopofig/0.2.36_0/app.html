@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/lato.css" />
+        <link rel="stylesheet" type="text/css" href="css/ubnt.css" />
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        <link rel="stylesheet" type="text/css" href="css/discovery.css?afdas=fdsaf" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.modal.css" />
+    </head>
+    <body>
+        <script src="js/lib/jquery-2.1.3.min.js"></script>
+        <script src="js/lib/jquery.modal.min.js"></script>
+        <script src="js/app.js"></script>
+
+        <div style="position:relative;" class="appGlobalHeader">
+            <div id="logo" class="appGlobalHeader__content appGlobalHeader__content--left">
+                <div class="appGlobalHeader__logo"><a href="#" style="font-size: 32px; line-height: 46px;" class="icon ubnt-icon--ubnt-logo-u2"></a></div>
+                <h6 class="appGlobalHeader__item">Ubiquiti Device Discovery Tool</h6>
+            </div>
+            <div class="appGlobalHeader__content appGlobalHeader__content--right">
+                <button class="appMainButton appMainButton--secondary appMainButton--cozy" id="toggle-btn">UniFi Family</button>
+            </div>
+        </div>
+
+        <div class="appActionBar appActionBar--cozy">
+            <div class="appActionBar__inner">
+                <div class="appActionBar__left">
+                    <div class="appForm--cozy">
+                        <div class="appInputGroup">
+                            <div class="appIconInput appIconInput--right">
+                                <div class="appIconInput__icon icon ubnt-icon--search-2"></div>
+                                <input type="text" placeholder="Search" class="appIconInput__input" id="search-field"/>
+                            </div>
+
+                            <button class="appMainButton appMainButton--primary appMainButton--cozy" id="scan-btn">Scan</button>
+                            <button class="appMainButton appMainButton--primary appMainButton--cozy unifi" id="find-cloud-key-btn">Find Cloud Key</button>
+                            <button class="appMainButton appMainButton--cozy" id="clear-btn">Clear</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="appActionBar__right" style="font-size: 11px">
+                    <span id="unifi-status" class="unifi"></span>
+                    <span class="device-count">Device Count : </span> <span class="device-count" id="device-count">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding : 12px; position : absolute; top : 70px; bottom : 50px; left : 0; right : 0">
+
+            <table class="table--scrollable appTable appTable--light appTable--cozy" style="margin-top: 15px; height : 100%; width: 100%">
+                <thead>
+                    <tr>
+                        <th width="15%" class="is-column-sortable" data-sort-by="model">Device Type<span class="sort-arrow appTable__sortArrow icon ubnt-icon--arrow-down-4"></span></th>
+                        <th width="20%" class="airos is-column-sortable" data-sort-by="hostname">Name<span class="sort-arrow appTable__sortArrow icon ubnt-icon--arrow-down-4"></span></th>
+                        <th width="10%" class="is-column-sortable" data-sort-by="ip">Host<span class="sort-arrow appTable__sortArrow icon ubnt-icon--arrow-down-4"></span></th>
+                        <th width="15%" class="is-column-sortable" data-sort-by="mac">MAC<span class="sort-arrow appTable__sortArrow icon ubnt-icon--arrow-down-4"></span></th>
+                        <th width="15%" class="is-column-sortable" data-sort-by="firmware">Firmware<span class="sort-arrow appTable__sortArrow icon ubnt-icon--arrow-down-4"></span></th>
+                        <th width="15%" class="unifi is-column-sortable" data-sort-by="status">Status<span class="sort-arrow appTable__sortArrow icon ubnt-icon--arrow-down-4"></span></th>
+                        <th width="10%" class="unifi"></th>
+                    </tr>
+                </thead>
+
+                <tbody id="device-tbody" style="height : 100%">
+
+                </tbody>
+
+            </table>
+        </div>
+
+        <div id="dialog" style="display:none;">
+            <div class="dialog-content">
+                 <table class="actionDialog">
+                    <tr><td>Status</td><td class="status"></td></tr>
+                    <tr><td>Model:</td><td class="model"></td></tr>
+                    <tr><td>Version:</td><td class="version"></td></tr>
+                    <tr><td>Hostname:</td><td class="hostname"></td></tr>
+                    <tr><td>IP Address:</td><td class="ip"></td></tr>
+                    <tr><td>MAC Address:</td><code><td class="mac"></code></td></tr>
+                    <tr>
+                        <td>Actions:</td>
+                        <td>
+                            <select class="action-selector">
+                                <option value="set-inform">Set Inform</option>
+                                <option value="locate">Locate</option>
+                                <option value="reboot">Reboot</option>
+                                <option value="reset">Restore to factory default</option>
+                                <option value="upgrade">Upgrade</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="inform-url-row" style="display:none;">
+                        <td>Inform URL:</td>
+                        <td><input class="inform-url" type="text" value="http://unifi:8080/inform"></td>
+                    </tr>
+                    <tr class="upgrade-url-row" style="display:none;">
+                         <td>Upgrade URL:</td>
+                         <td><input class="upgrade-url" type="text" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input class="username" type="text" value="ubnt"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input class="password" type="text" value="ubnt"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="dialog-button" align="center">
+                <button class="appMainButton appMainButton--primary appMainButton--cozy apply-btn">Execute</button>
+                <button class="appMainButton appMainButton--cozy cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </body>
+</html>

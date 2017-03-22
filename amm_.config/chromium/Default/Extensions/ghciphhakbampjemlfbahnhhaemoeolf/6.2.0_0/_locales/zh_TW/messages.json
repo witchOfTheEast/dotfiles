@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "注意YouTube。"
+   },
+   "appDesc": {
+      "message": "幫助你快速下載視頻網站或將它們添加到您的視頻列表。"
+   },
+   "appName": {
+      "message": "視頻輔助下載"
+   },
+   "apply": {
+      "message": "申請"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "close": {
+      "message": "關閉"
+   },
+   "deffolder": {
+      "message": "夾"
+   },
+   "done": {
+      "message": "套用變更"
+   },
+   "filter": {
+      "message": "篩選的影片"
+   },
+   "idVDL": {
+      "message": "視頻文件發現："
+   },
+   "idaddvideo": {
+      "message": "添加視頻到視頻列表"
+   },
+   "iddel": {
+      "message": "刪除頂部鏈接"
+   },
+   "iddelf": {
+      "message": "刪除文件夾"
+   },
+   "idedit": {
+      "message": "編輯頂部鏈接"
+   },
+   "ideditf": {
+      "message": "修改文件夾名"
+   },
+   "idnovideo": {
+      "message": "沒有找到視頻。"
+   },
+   "idvideo": {
+      "message": "顯示視頻列表"
+   },
+   "idwhy": {
+      "message": "為什麼呢？"
+   },
+   "langKey_backupnow": {
+      "message": "現在保存"
+   },
+   "langKey_bkcolor": {
+      "message": "選擇背景顏色"
+   },
+   "langKey_border": {
+      "message": "選擇“邊框”"
+   },
+   "langKey_bordercolor": {
+      "message": "選擇下面邊境的顏色"
+   },
+   "langKey_checkSlideshow": {
+      "message": "顯示背景圖片，這個話題："
+   },
+   "langKey_checknodefaults": {
+      "message": "自定義顏色"
+   },
+   "langKey_editToplinks": {
+      "message": "移動視頻"
+   },
+   "langKey_helpvideo": {
+      "message": "將項目添加到您的視頻列表，在此頁面的底部列出的網站播放視頻，然後點擊上面的圖標："
+   },
+   "langKey_icon1": {
+      "message": "在每一頁上顯示"
+   },
+   "langKey_icon2": {
+      "message": "包含視頻的網頁上只顯示"
+   },
+   "langKey_icon3": {
+      "message": "從不顯示"
+   },
+   "langKey_settings": {
+      "message": "設置"
+   },
+   "langKey_textcolor": {
+      "message": "選擇文字顏色"
+   },
+   "langKey_trans": {
+      "message": "熱門鏈接的透明度"
+   },
+   "name": {
+      "message": "暱稱"
+   },
+   "newToplink": {
+      "message": "新的頂部鏈接"
+   },
+   "ok": {
+      "message": "行"
+   },
+   "original": {
+      "message": "進入到原來的網站"
+   },
+   "ratetext": {
+      "message": "請率這個Chrome擴展"
+   },
+   "resethelp": {
+      "message": "復位幫助"
+   },
+   "resethelp2": {
+      "message": "難道你真的想要重置設置？"
+   },
+   "resettheme": {
+      "message": "重設"
+   },
+   "search": {
+      "message": "搜尋"
+   },
+   "supported": {
+      "message": "支持的視頻網站"
+   },
+   "videolist": {
+      "message": "視頻"
+   }
+}

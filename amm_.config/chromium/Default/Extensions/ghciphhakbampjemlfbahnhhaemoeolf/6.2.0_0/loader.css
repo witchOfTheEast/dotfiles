@@ -1,0 +1,64 @@
+.vdsuspendBar {
+	position: absolute;
+	z-index: 999;
+	visibility: visible;
+}
+.vdsuspendBar .statusbar {
+	/*box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	border-radius: 3px;*/
+	white-space: nowrap;
+	direction: ltr;
+	margin:0;
+	padding:0;
+	cursor:move;
+	list-style:none;
+	overflow: hidden;
+}
+.vdsuspendBar .statusbar li {
+	float:left;
+	list-style:none;
+	overflow: hidden;
+}
+.vdsuspendBar .statusbar a{ display:inline-block; padding:2px 3px; text-align:center;background: rgba(0,0,0,0.5);}
+#vdclose{ padding-left: 0px;}
+.vdsuspendBar .statusbar .icon-span {
+	display: inline-block;
+	text-align: center;
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+	height: 20px;
+	width: 25px;
+	margin: 0;
+}
+.vdsuspendBar .icon-img {
+	background-image: url(http://b.thanksearch.com/ftpup/images/me/vedio_download_helper/icon-sprite5.png);
+	background-repeat: no-repeat;
+}
+.vdsuspendBar .icon-suspend-download{ background-position:0 0;}
+.vdsuspendBar .icon-suspend-share{ background-position:0 -20px;}
+.vdsuspendBar .icon-suspend-addlist{ background-position:0 -125px;}
+.vdsuspendBar .icon-suspend-close{ background-position:0 -105px;}
+.vdsuspendBar .icon-suspend-send{ background-position:0 -145px;}
+.vdsuspendBar .icon-suspend-light{ background-position:0 -186px;}
+.vdsuspendBar .share-item{ background-color: rgba(0,0,0,0.5); display: none; width: 125px;z-index: 999;padding-left: 0px;}
+.vdsuspendBar .share-item li{ height:30px; line-height:30px; padding-left:15px; padding-right:15px;}
+.vdsuspendBar .share-item li:hover{ background:rgba(0,0,0,0.5);}
+
+.vdsuspendBar .share-item li a{ text-decoration:none; color:#fff; display:inline-block; height:20px; line-height:20px; padding-left:30px;}
+.vdsuspendBar .sharegoogle{ background-position:0 -85px;}
+.vdsuspendBar .sharefacebook{ background-position:0 -65px;}
+.vdsuspendBar .sharetwitter{ background-position:0 -45px;}
+
+/*关灯*/
+#vdplayshow-mask{
+	display: none;
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+}

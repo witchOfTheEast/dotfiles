@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "YouTube Notu."
+   },
+   "appDesc": {
+      "message": "Web sitelerinden videoları hızlı bir şekilde indirmenize yardımcı olur veya videoları video listesine ekler."
+   },
+   "appName": {
+      "message": "Video indirme yardımcısı"
+   },
+   "apply": {
+      "message": "Başvurma"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "deffolder": {
+      "message": "Klasör"
+   },
+   "done": {
+      "message": "Değişiklikleri uygula"
+   },
+   "filter": {
+      "message": "Videoları filtrele"
+   },
+   "idVDL": {
+      "message": "Video dosyaları bulundu:"
+   },
+   "idaddvideo": {
+      "message": "Videoları video listesine ekle"
+   },
+   "iddel": {
+      "message": "Üst bağlantıyı sil"
+   },
+   "iddelf": {
+      "message": "Klasörü sil"
+   },
+   "idedit": {
+      "message": "Üst bağlantıyı düzenle"
+   },
+   "ideditf": {
+      "message": "Klasör ismini düzenle"
+   },
+   "idnovideo": {
+      "message": "Hiçbir video bulunamadı."
+   },
+   "idvideo": {
+      "message": "Video listesini göster"
+   },
+   "idwhy": {
+      "message": "Neden？"
+   },
+   "langKey_backupnow": {
+      "message": "Şimdi kaydet"
+   },
+   "langKey_bkcolor": {
+      "message": "Arka plan rengini seç"
+   },
+   "langKey_border": {
+      "message": "Kenarlık seç"
+   },
+   "langKey_bordercolor": {
+      "message": "Aşağıdaki kenarlığın rengini seçin"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Bu konuya ait arka plan resimlerini göster"
+   },
+   "langKey_checknodefaults": {
+      "message": "Renkleri özelleştirme"
+   },
+   "langKey_editToplinks": {
+      "message": "Videoları taşı"
+   },
+   "langKey_helpvideo": {
+      "message": "Video listenize ekleme yapmak için, bu sayfanın altında listelenen \nsitelerden video oynatın ardından yukarıda bulunan ikona tıklayın:"
+   },
+   "langKey_icon1": {
+      "message": "Bütün sayfalarda göster"
+   },
+   "langKey_icon2": {
+      "message": "Sadece video içeren sayfaları göster"
+   },
+   "langKey_icon3": {
+      "message": "Hiçbir zaman gösterme"
+   },
+   "langKey_settings": {
+      "message": "Ayarlar"
+   },
+   "langKey_textcolor": {
+      "message": "Metin rengini seç"
+   },
+   "langKey_trans": {
+      "message": "Üst bağlantıların opaklığı"
+   },
+   "name": {
+      "message": "Ad"
+   },
+   "newToplink": {
+      "message": "Yeni Üst bağlantı"
+   },
+   "ok": {
+      "message": "Tamam"
+   },
+   "original": {
+      "message": "Orjinal siteye git"
+   },
+   "ratetext": {
+      "message": "Lütfen bu Chrome eklentisini derecelendirin"
+   },
+   "resethelp": {
+      "message": "Yardımcı balonları sıfırla"
+   },
+   "resethelp2": {
+      "message": "Ayarları sıfırlamak istediğinizden emin misiniz ?"
+   },
+   "resettheme": {
+      "message": "Sıfırla"
+   },
+   "search": {
+      "message": "Ara"
+   },
+   "supported": {
+      "message": "Desteklenen video siteleri"
+   },
+   "videolist": {
+      "message": "Videolar"
+   }
+}

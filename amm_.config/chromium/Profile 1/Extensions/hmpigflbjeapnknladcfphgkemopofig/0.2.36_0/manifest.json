@@ -1,0 +1,37 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "js/background.js", "js/lib/ip_calc.js", "js/unifi_bundles.js", "js/ssh_commander.js" ]
+      }
+   },
+   "description": "Discover Ubiquiti devices on your local network.",
+   "externally_connectable": {
+      "matches": [ "*://*.ubnt.com/*", "*://*.amplifi.com/*" ]
+   },
+   "icons": {
+      "128": "img/icon128.png",
+      "32": "img/icon32.png",
+      "64": "img/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhfbqwTqmsyzM1L5U32UnpHSdHsLFlcChRywcAuOSlL5BGwAwGTfA1q2KvlQ1PLIc148e9rsTl5fMdavatrmRMN/b2KnorYN3iN87ZHFcsNsn3aN4MDHgQmcH9xBIur5pQRClKH0LksF7bWd5ZTTAoklMU0i1Zq9YXtPJgFOC817JpTS7vOo1BhvOf3PV3y3zMmgHUUrpdfjtu5IEy/WKalQTXMXBbSdNSL8IFEocC68yf0VhtqOyq3Tkw42iAvX1Yz4tgTdfDwrAW5+tsE/3KDLMr0kVMXVMFjxakasABXyhQz7+eIyeI5bYZCDMdDry3zfQI9y2Rzu8CJMK04rZ7QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "33",
+   "name": "Ubiquiti Device Discovery Tool",
+   "offline_enabled": true,
+   "permissions": [ "system.network", "clipboardRead", "clipboardWrite", "notifications", "storage", "unlimitedStorage", {
+      "socket": [ "tcp-connect", "resolve-host", "udp-bind:*:*", "udp-send-to:*:*" ]
+   } ],
+   "short_name": "UBNT Discovery",
+   "sockets": {
+      "tcp": {
+         "connect": ""
+      },
+      "udp": {
+         "bind": "*",
+         "multicastMembership": "",
+         "send": "*"
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.36"
+}

@@ -1,0 +1,155 @@
+{
+   "YTBNote": {
+      "message": "YouTube Note."
+   },
+   "appDesc": {
+      "message": "Help you download video quickly from web sites or add them in your video list."
+   },
+   "appName": {
+      "message": "Video Downloader Super"
+   },
+   "apply": {
+      "message": "Apply"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "close": {
+      "message": "close"
+   },
+   "deffolder": {
+      "message": "Folder"
+   },
+   "done": {
+      "message": "Apply changes"
+   },
+   "filter": {
+      "message": "Filter videos"
+   },
+   "idVDL": {
+      "message": "Found video files:"
+   },
+   "idaddvideo": {
+      "message": "Add video to video list"
+   },
+   "iddel": {
+      "message": "Delete Top Link"
+   },
+   "iddelf": {
+      "message": "Delete folder"
+   },
+   "idedit": {
+      "message": "Edit Top Link"
+   },
+   "ideditf": {
+      "message": "Edit folder name"
+   },
+   "idnovideo": {
+      "message": "No videos found."
+   },
+   "idvideo": {
+      "message": "Show video list"
+   },
+   "idwhy": {
+      "message": "Why?"
+   },
+   "invalidUrl": {
+      "message": "Please enter a valid URL"
+   },
+   "langKey_backup": {
+      "message": "Save data into the cloud"
+   },
+   "langKey_backupnow": {
+      "message": "Save now"
+   },
+   "langKey_bkcolor": {
+      "message": "Select background color"
+   },
+   "langKey_border": {
+      "message": "Select border"
+   },
+   "langKey_bordercolor": {
+      "message": "Select color of the border below"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Show background pictures to this topic:"
+   },
+   "langKey_checknodefaults": {
+      "message": "Customize colors"
+   },
+   "langKey_editToplinks": {
+      "message": "Move videos"
+   },
+   "langKey_helpvideo": {
+      "message": "To \u003Cb>add items\u003C/b> into your video list play a video of the sites listed at the bottom of this page and then click this icon above: \u003Cimg src='../../showlist/png/icon.png'/>"
+   },
+   "langKey_icon1": {
+      "message": "Show on every page"
+   },
+   "langKey_icon2": {
+      "message": "Show only on pages containing videos"
+   },
+   "langKey_icon3": {
+      "message": "Never show"
+   },
+   "langKey_restore": {
+      "message": "Get data from the cloud"
+   },
+   "langKey_settings": {
+      "message": "Settings"
+   },
+   "langKey_sync": {
+      "message": "Synchronize Top Links with your Google account"
+   },
+   "langKey_textcolor": {
+      "message": "Select text color"
+   },
+   "langKey_trans": {
+      "message": "Opacity of Top Links"
+   },
+   "name": {
+      "message": "Name"
+   },
+   "newToplink": {
+      "message": "new Top Link"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Go to the original site"
+   },
+   "pleasewait": {
+      "message": "\u003Ccenter>Data beeing uploaded, please wait...\u003C/center>"
+   },
+   "ratetext": {
+      "message": "Please rate this Chrome extension"
+   },
+   "resethelp": {
+      "message": "Reset help ballons"
+   },
+   "resethelp2": {
+      "message": "Do you reallay want to reset settings ?"
+   },
+   "resettheme": {
+      "message": "Reset"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "searchurl": {
+      "message": "Search adress (optional)"
+   },
+   "searchurl2": {
+      "message": "Use %P1% as placeholder for the text to search for"
+   },
+   "supported": {
+      "message": "Supported video sites"
+   },
+   "url": {
+      "message": "Adress:"
+   },
+   "videolist": {
+      "message": "videos"
+   }
+}

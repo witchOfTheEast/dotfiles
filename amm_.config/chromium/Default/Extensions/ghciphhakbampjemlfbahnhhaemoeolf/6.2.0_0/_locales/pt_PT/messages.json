@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "Nota do Youtube."
+   },
+   "appDesc": {
+      "message": "Ajuda você a baixar vídeos rapidamente de websites ou adicioná-los para sua lista de vídeos."
+   },
+   "appName": {
+      "message": "Ajudante de Download de vídeo"
+   },
+   "apply": {
+      "message": "Aplicar"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "close": {
+      "message": "fechar"
+   },
+   "deffolder": {
+      "message": "Pasta"
+   },
+   "done": {
+      "message": "Aplicar mudanças"
+   },
+   "filter": {
+      "message": "Filtrar vídeos"
+   },
+   "idVDL": {
+      "message": "Arquivos de vídeos encontrados:"
+   },
+   "idaddvideo": {
+      "message": "Adicionar vídeos para a lista"
+   },
+   "iddel": {
+      "message": "Deletar Top Link"
+   },
+   "iddelf": {
+      "message": "Excluir pasta"
+   },
+   "idedit": {
+      "message": "Editar Top Links"
+   },
+   "ideditf": {
+      "message": "Editar nome da pasta"
+   },
+   "idnovideo": {
+      "message": "Nenhum vídeo encontrado."
+   },
+   "idvideo": {
+      "message": "Mostrar lista de vídeo"
+   },
+   "idwhy": {
+      "message": "Por que?"
+   },
+   "langKey_backupnow": {
+      "message": "Salvar agora"
+   },
+   "langKey_bkcolor": {
+      "message": "Selecionar cor de fundo"
+   },
+   "langKey_border": {
+      "message": "Selecionar borda"
+   },
+   "langKey_bordercolor": {
+      "message": "Selecione a cor na borda abaixo"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Mostrar fotos de fundo para este tópico:"
+   },
+   "langKey_checknodefaults": {
+      "message": "Personalizar cores"
+   },
+   "langKey_editToplinks": {
+      "message": "Mover vídeo"
+   },
+   "langKey_helpvideo": {
+      "message": "Para adicionar itens à sua lista de vídeos, assista um vídeo de um dos sites listados abaixo nesta página e depois clique no ícone acima:"
+   },
+   "langKey_icon1": {
+      "message": "Mostrar em cada página"
+   },
+   "langKey_icon2": {
+      "message": "Mostrar apenas páginas contendo vídeos"
+   },
+   "langKey_icon3": {
+      "message": "Nunca mostrar"
+   },
+   "langKey_settings": {
+      "message": "Definições"
+   },
+   "langKey_textcolor": {
+      "message": "Selecione a cor de texto"
+   },
+   "langKey_trans": {
+      "message": "Opacidade dos Top Links"
+   },
+   "name": {
+      "message": "Nome"
+   },
+   "newToplink": {
+      "message": "novo Top Link"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "original": {
+      "message": "Ir para o site original"
+   },
+   "ratetext": {
+      "message": "Favor avaliar esta extensão do Chrome"
+   },
+   "resethelp": {
+      "message": "Redefinir balões de ajuda"
+   },
+   "resethelp2": {
+      "message": "Você realmente quer redefinir as configurações?"
+   },
+   "resettheme": {
+      "message": "Resetar"
+   },
+   "search": {
+      "message": "Pesquisar"
+   },
+   "supported": {
+      "message": "Sites de vídeos suportados"
+   },
+   "videolist": {
+      "message": "vídeos"
+   }
+}

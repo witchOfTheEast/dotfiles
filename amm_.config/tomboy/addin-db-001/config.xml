@@ -1,0 +1,5 @@
+<Configuration>
+  <AddinStatus>
+    <Addin id="Tomboy.AdvancedPreferencesAddin" enabled="True" />
+  </AddinStatus>
+</Configuration>

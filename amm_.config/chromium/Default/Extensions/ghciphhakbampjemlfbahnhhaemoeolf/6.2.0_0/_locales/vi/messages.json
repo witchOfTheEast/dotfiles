@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "Lưu ý YouTube."
+   },
+   "appDesc": {
+      "message": "Giúp bạn tải video từ các trang web một cách nhanh chóng hoặc thêm chúng vào danh sách video của bạn."
+   },
+   "appName": {
+      "message": "Trợ thủ tải video"
+   },
+   "apply": {
+      "message": "Lưu"
+   },
+   "cancel": {
+      "message": "hủy bỏ"
+   },
+   "close": {
+      "message": "Đóng"
+   },
+   "deffolder": {
+      "message": "Thư mục"
+   },
+   "done": {
+      "message": "Chắc chắn"
+   },
+   "filter": {
+      "message": "Lọc videos"
+   },
+   "idVDL": {
+      "message": "Tìm thấy thư mục video:"
+   },
+   "idaddvideo": {
+      "message": "Thêm video vào danh sách video"
+   },
+   "iddel": {
+      "message": "Xóa các liên kết đầu"
+   },
+   "iddelf": {
+      "message": "Xóa thư mục"
+   },
+   "idedit": {
+      "message": "Chỉnh sửa liên kết đầu"
+   },
+   "ideditf": {
+      "message": "Sửa tên thư mục"
+   },
+   "idnovideo": {
+      "message": "Không tìm thấy video."
+   },
+   "idvideo": {
+      "message": "Hiển thị danh sách video"
+   },
+   "idwhy": {
+      "message": "Tại sao?"
+   },
+   "langKey_backupnow": {
+      "message": "Lưu ngay"
+   },
+   "langKey_bkcolor": {
+      "message": "Chọn màu nền"
+   },
+   "langKey_border": {
+      "message": "Chọn khung viền"
+   },
+   "langKey_bordercolor": {
+      "message": "Chọn màu khung viền"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Hiển thị nền chủ đề:"
+   },
+   "langKey_checknodefaults": {
+      "message": "Tùy chỉnh màu sắc"
+   },
+   "langKey_editToplinks": {
+      "message": "Chuyển videos"
+   },
+   "langKey_helpvideo": {
+      "message": "Để thêm các mục vào danh sách video của bạn,bật một đoạn video của các trang web được liệt kê ở dưới cùng của trang này và sau đó nhấn vào biểu tượng này:"
+   },
+   "langKey_icon1": {
+      "message": "Hiển thị trên từng trang"
+   },
+   "langKey_icon2": {
+      "message": "Hiển thị video có trong trang này"
+   },
+   "langKey_icon3": {
+      "message": "Không bao giờ hiển thị"
+   },
+   "langKey_settings": {
+      "message": "Cài đặt"
+   },
+   "langKey_textcolor": {
+      "message": "Chọn màu chữ"
+   },
+   "langKey_trans": {
+      "message": "Thay đổi"
+   },
+   "name": {
+      "message": "Tên"
+   },
+   "newToplink": {
+      "message": "Liên kết mới"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "original": {
+      "message": "Quay lại"
+   },
+   "ratetext": {
+      "message": "Vui lòng đánh giá cho Chrome mở rộng"
+   },
+   "resethelp": {
+      "message": "Thiết lập lại lời nhắc"
+   },
+   "resethelp2": {
+      "message": "Bạn có thực sự muốn thiết lập lại các cài đặt?"
+   },
+   "resettheme": {
+      "message": "Thiết lập lại"
+   },
+   "search": {
+      "message": "tìm kiếm"
+   },
+   "supported": {
+      "message": "Hỗ trợ video"
+   },
+   "videolist": {
+      "message": "videos"
+   }
+}

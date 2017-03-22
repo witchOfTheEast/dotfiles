@@ -1,0 +1,14 @@
+12/9/2015 9:53:14 AM [INFO]: Initializing Mono.Addins
+12/9/2015 9:53:15 AM [WARN]: No GUI 'su' tool found
+12/9/2015 9:53:22 AM [INFO]: Monitor number returned by GetMonitorAtPoint (actual) is: 2
+12/9/2015 9:53:22 AM [INFO]: Saved monitor number is: 2
+12/9/2015 9:53:22 AM [INFO]: Saved Search window position is 5760 x 0
+12/9/2015 9:53:22 AM [INFO]: Saved monitor number does match the actual one...
+12/9/2015 9:53:22 AM [INFO]: ...and saved window position is within it - restoring as-is.
+12/9/2015 9:53:22 AM [INFO]: Restoring Search window to position 5760 x 0 at monitor 2
+12/9/2015 9:54:28 AM [INFO]: Monitor number returned by GetMonitorAtPoint (actual) is: 1
+12/9/2015 9:54:28 AM [INFO]: Saved monitor number is: 1
+12/9/2015 9:54:28 AM [INFO]: Saved Search window position is 2880 x 0
+12/9/2015 9:54:28 AM [INFO]: Saved monitor number does match the actual one...
+12/9/2015 9:54:28 AM [INFO]: ...and saved window position is within it - restoring as-is.
+12/9/2015 9:54:28 AM [INFO]: Restoring Search window to position 2880 x 0 at monitor 1

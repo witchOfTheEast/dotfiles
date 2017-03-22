@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "Remarque YouTube."
+   },
+   "appDesc": {
+      "message": "Vous aidez à télécharger des vidéos rapidement depuis des sites Web ou les ajouter à votre liste vidéo."
+   },
+   "appName": {
+      "message": "Video Downloader Super"
+   },
+   "apply": {
+      "message": "Appliquer"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "close": {
+      "message": "Fermer"
+   },
+   "deffolder": {
+      "message": "Dossier"
+   },
+   "done": {
+      "message": "Appliquer les modifications"
+   },
+   "filter": {
+      "message": "Filtrer les vidéos"
+   },
+   "idVDL": {
+      "message": "Fichiers vidéo trouvés:"
+   },
+   "idaddvideo": {
+      "message": "Ajouter des vidéos à la liste"
+   },
+   "iddel": {
+      "message": "Supprimer les liens au-dessus"
+   },
+   "iddelf": {
+      "message": "Supprimer le dossier"
+   },
+   "idedit": {
+      "message": "Modifier le lien au-dessus"
+   },
+   "ideditf": {
+      "message": "Modifier le nom du dossier"
+   },
+   "idnovideo": {
+      "message": "Aucune vidéo trouvée."
+   },
+   "idvideo": {
+      "message": "Afficher la liste des vidéos"
+   },
+   "idwhy": {
+      "message": "Pourquoi?"
+   },
+   "langKey_backupnow": {
+      "message": "Sauvegarder maintenant"
+   },
+   "langKey_bkcolor": {
+      "message": "Choisir la couleur de fond"
+   },
+   "langKey_border": {
+      "message": "Choisir une bordure"
+   },
+   "langKey_bordercolor": {
+      "message": "Choisir la couleur de la bordure ci-dessous"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Afficher le fond du thème"
+   },
+   "langKey_checknodefaults": {
+      "message": "Personnaliser les couleurs"
+   },
+   "langKey_editToplinks": {
+      "message": "Déplacer les vidéos"
+   },
+   "langKey_helpvideo": {
+      "message": "Pour ajouter des vidéos à votre liste, faites jouer une vidéo sur l'un des sites listés au bas de cette page, puis cliquez sur l'icône ci-dessus:"
+   },
+   "langKey_icon1": {
+      "message": "Afficher sur chaque page"
+   },
+   "langKey_icon2": {
+      "message": "Afficher les vidéos contenues dans cette page"
+   },
+   "langKey_icon3": {
+      "message": "Ne jamais afficher"
+   },
+   "langKey_settings": {
+      "message": "Réglages"
+   },
+   "langKey_textcolor": {
+      "message": "Choisir la couleur du texte"
+   },
+   "langKey_trans": {
+      "message": "Opacité des liens au-dessus"
+   },
+   "name": {
+      "message": "Nom"
+   },
+   "newToplink": {
+      "message": "Nouveau lien au-dessus"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Aller sur le site d'origine"
+   },
+   "ratetext": {
+      "message": "Donner une note à cette extension de Chrome"
+   },
+   "resethelp": {
+      "message": "Réinitialiser les bulles d'aide"
+   },
+   "resethelp2": {
+      "message": "Voulez-vous vraiment réinitialiser les paramètres?"
+   },
+   "resettheme": {
+      "message": "Réinitialiser"
+   },
+   "search": {
+      "message": "Rechercher"
+   },
+   "supported": {
+      "message": "Sites de vidéo pris en charge"
+   },
+   "videolist": {
+      "message": "Videos"
+   }
+}

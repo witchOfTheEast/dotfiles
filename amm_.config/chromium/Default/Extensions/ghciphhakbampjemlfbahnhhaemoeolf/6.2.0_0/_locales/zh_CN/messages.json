@@ -1,0 +1,89 @@
+{
+   "YTBNote": {
+      "message": "注意YouTube。"
+   },
+   "appDesc": {
+      "message": "帮助你快速下载视频网站或将它们添加到您的视频列表。"
+   },
+   "appName": {
+      "message": "视频下载助手"
+   },
+   "apply": {
+      "message": "申請"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "done": {
+      "message": "确定"
+   },
+   "filter": {
+      "message": "筛选的影片"
+   },
+   "idVDL": {
+      "message": "找到视频："
+   },
+   "idaddvideo": {
+      "message": "添加视频到视频列表"
+   },
+   "idnovideo": {
+      "message": "没有找到视频。"
+   },
+   "idvideo": {
+      "message": "显示视频列表"
+   },
+   "idwhy": {
+      "message": "为什么呢？"
+   },
+   "langKey_backupnow": {
+      "message": "现在保存"
+   },
+   "langKey_editToplinks": {
+      "message": "移动视频"
+   },
+   "langKey_helpvideo": {
+      "message": "将项目添加到您的视频列表，在此页面的底部列出的网站播放视频，然后点击上面的图标："
+   },
+   "langKey_icon1": {
+      "message": "在每一页上显示"
+   },
+   "langKey_icon2": {
+      "message": "包含视频的网页上显示"
+   },
+   "langKey_icon3": {
+      "message": "从不显示"
+   },
+   "langKey_settings": {
+      "message": "设置"
+   },
+   "name": {
+      "message": "名称"
+   },
+   "ok": {
+      "message": "确定"
+   },
+   "original": {
+      "message": "进入到原来的网站"
+   },
+   "ratetext": {
+      "message": "给个好评吧"
+   },
+   "resethelp": {
+      "message": "重置帮助"
+   },
+   "resettheme": {
+      "message": "重置"
+   },
+   "search": {
+      "message": "查询"
+   },
+   "supported": {
+      "message": "支持的视频网站"
+   },
+   "videolist": {
+      "message": "视频"
+   }
+}

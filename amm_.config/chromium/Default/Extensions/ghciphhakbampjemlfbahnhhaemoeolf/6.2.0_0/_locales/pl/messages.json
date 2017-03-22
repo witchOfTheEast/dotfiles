@@ -1,0 +1,131 @@
+{
+   "YTBNote": {
+      "message": "Ocena na YouTube"
+   },
+   "appDesc": {
+      "message": "Pomoże w szybkim pobraniu video ze strony www lub dodaniu do Twojej Listy."
+   },
+   "appName": {
+      "message": "Video Downloader Super"
+   },
+   "apply": {
+      "message": "Dołącz"
+   },
+   "cancel": {
+      "message": "Anuluj"
+   },
+   "close": {
+      "message": "zamknij"
+   },
+   "deffolder": {
+      "message": "Folder"
+   },
+   "done": {
+      "message": "Wprowadź zmiany"
+   },
+   "filter": {
+      "message": "Filtruj video"
+   },
+   "idVDL": {
+      "message": "Znalezione pliki video:"
+   },
+   "idaddvideo": {
+      "message": "Dodaj video do Listy"
+   },
+   "iddel": {
+      "message": "Usuń Top Link"
+   },
+   "iddelf": {
+      "message": "Usuń folder"
+   },
+   "idedit": {
+      "message": "Edytuj Top Link"
+   },
+   "ideditf": {
+      "message": "Edytuj nazwę folderu"
+   },
+   "idnovideo": {
+      "message": "Nie znaleziono żadnego video"
+   },
+   "idvideo": {
+      "message": "Pokaż Listę Video"
+   },
+   "idwhy": {
+      "message": "Dlaczego?"
+   },
+   "langKey_backupnow": {
+      "message": "Zapisz"
+   },
+   "langKey_bkcolor": {
+      "message": "Wybierz kolor tła"
+   },
+   "langKey_border": {
+      "message": "Wybierz panel"
+   },
+   "langKey_bordercolor": {
+      "message": "Wybierz kolor z poniższej palety"
+   },
+   "langKey_checkSlideshow": {
+      "message": "Pokaż obrazki do tematu:"
+   },
+   "langKey_checknodefaults": {
+      "message": "Dostosuj kolory"
+   },
+   "langKey_editToplinks": {
+      "message": "Filmy video"
+   },
+   "langKey_helpvideo": {
+      "message": "By dodać video do Listy, odtwórz video umieszczone na dole strony i kliknij na ikonę powyżej:"
+   },
+   "langKey_icon1": {
+      "message": "Pokaż na każdej stronie"
+   },
+   "langKey_icon2": {
+      "message": "Pokaż video wyświetlone na tej stronie"
+   },
+   "langKey_icon3": {
+      "message": "Nie pokazuj"
+   },
+   "langKey_settings": {
+      "message": "Ustawienia"
+   },
+   "langKey_textcolor": {
+      "message": "Wybierz kolor czcionki"
+   },
+   "langKey_trans": {
+      "message": "Niejasne Top Linki"
+   },
+   "name": {
+      "message": "Imię"
+   },
+   "newToplink": {
+      "message": "Nowy Top Link"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Wróć do strony głównej"
+   },
+   "ratetext": {
+      "message": "Oceń to rozszerzenie Chrome"
+   },
+   "resethelp": {
+      "message": "Zrestartuj okna pomocy"
+   },
+   "resethelp2": {
+      "message": "Czy na pewno chcesz zrestartować ustawienia?"
+   },
+   "resettheme": {
+      "message": "Zresetuj"
+   },
+   "search": {
+      "message": "Szukaj"
+   },
+   "supported": {
+      "message": "Wspomagane strony video"
+   },
+   "videolist": {
+      "message": "wideo"
+   }
+}
