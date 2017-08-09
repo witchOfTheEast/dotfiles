@@ -47,7 +47,6 @@ HISTCONTROL=ignoreboth
 HISTIGNORE='ls:bg:fg:history:exit'
 
 PROMPT_COMMAND='history -a'
-alias vc="vmplayer -H vc.hq.sdamedia.com -U hq\\\administrator"
 
 # For pretty less man colors
 #man() {
