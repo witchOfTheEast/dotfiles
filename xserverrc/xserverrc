@@ -1,0 +1,5 @@
+#!/bin/sh
+#exec /usr/bin/X -nolisten tcp "$@"
+# recommended below to prevent bypassing screen locker by switcing vterminals
+# added -keeptty to enable proper log redirection
+exec /usr/bin/Xorg -keeptty -nolisten tcp "$@" vt$XDG_VTNR
