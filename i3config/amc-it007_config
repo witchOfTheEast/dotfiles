@@ -1,0 +1,330 @@
+# i3 config file (v4)
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+###########
+#  Fonts  #
+###########
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font xft:Droid Sans Mono 6, xft:FontAwesome 10
+#font pango:DejaVu Sans Mono 8
+
+###############
+#  Variables  #
+###############
+set $h_output HDMI1
+set $v_output HDMI2
+set $default_output eDP-1
+
+################
+#  Workspaces  #
+################
+
+set $mail "1:MAIL"
+set $sub "2:two"
+set $gut "3:gutter"
+set $four "4:four"
+set $five "5:COG"
+set $invalid "6:six"
+set $sub2 "9:nine"
+set $rdp "8:RDP"
+set $main "10:MAIN"
+
+### workspace assignments
+workspace $invalid output $default_output
+workspace $sub output $v_output
+workspace $sub2 output $h_output
+workspace $mail output $v_output
+workspace $gut output $v_output
+workspace $rdp output $h_output 
+workspace $main output $h_output 
+workspace $four output $v_output 
+
+############
+#  Config  #
+############
+
+new_window pixel 2
+new_float pixel 2
+hide_edge_borders vertical
+workspace_auto_back_and_forth yes
+
+#############
+#  Windows  #
+#############
+floating_maximum_size 1080 x 1080
+
+#  For Window  #
+
+for_window [class="chromium" title="(Templates|Graphs|Items|Host Groups) - Chromium"] floating enable
+for_window [class="Chromium-browser" title=".*(Templates|Graphs|Items|Host Groups) - Chromium"] floating enable
+for_window [class="XCalc" instance="xcalc"] floating enable
+for_window [class="Remmina" title="Remmina Remote Desktop Client"] floating enable
+for_window [class="chromium" instance="crx_menkifleemblimdogmoihpfopnplikde"] floating enable, floating_maximum_size 400 x 460
+for_window [class="Thunderbird" instance="Mail" window_role="messageWindow"] floating enable
+for_window [class="Thunderbird" instance="Msgcompose" window_role="Msgcompose"] floating enable
+for_window [class="Thunderbird" instance="Calendar" window_role="EventDialog"] floating enable
+for_window [title="Download Manager.*"] floating enable
+for_window [class="Wine" title="Computers & Contacts"] floating enable, floating_maximum_size 200x200
+for_window [class="feh" instance="feh"] floating enable, floating_maximum_size 800 x 600
+for_window [title="main_urxvt"] move workspace $main, focus workspace $main
+for_window [title="pianobar_urxvt"] floating enable, floating_maximum_size 700 x 460
+for_window [class="xfreerdp"] floating disable
+for_window [class="Virt-manager" instance="virt-manager"] floating enable, floating_maximum_size 700 x 460
+for_window [class="xfreerdp" instance="xfreerdp" title=".*Small.*"] move workspace $main
+for_window [class="xfreerdp" instance="xfreerdp" title=".*Vertical.*"] move workspace $four, border normal
+for_window [class="chromium" title="^Google Hangouts.*"] floating enable, floating_maximum_size 500x600
+
+#  Assign  #
+assign [class="ownCloud" instance="owncloud"] $main
+assign [class="Remmina" title="^(?!Remmina Remote Desktop Client$)"] $rdp
+assign [class="chromium" instance="crx_menkifleemblimdogmoihpfopnplikde"] $gut
+assign [class="Virt-manager" instance="virt-manager"] $gut
+assign [title="pianobar_urxvt"] $gut
+assign [class="Thunderbird"] $mail
+assign [class="xfreerdp" instance="xfreerdp"] $rdp
+assign [class="Wine" title="^TeamViewer"] $gut
+assign [class="Wine" title=".*Teamviewer.*"] $tvc
+assign [class="chromium" title="^Google Hangouts.*"] $gut
+
+# Popups during fullscreen *
+# popup_during_fullscreen smart|ignore|leave_fullscreen
+popup_during_fullscreen smart
+
+##############
+#  Start-up  #
+##############
+
+#  Displays  #
+#Two displays - DP-1 and HDMI 
+#exec xrandr --output eDP-1 --auto --output HDMI-1 --right-of eDP-1 --auto --output DP-1 --right-of HDMI-1 --auto --output HDMI-1 --auto --rotate left
+#exec xrandr --output HDMI1 --right-of HDMI2 --auto --output HDMI2 --left-of HDMI1 --auto --rotate left
+
+exec xrandr --output HDMI2 --left-of HDMI1 --auto --rotate left
+
+# Set a background color
+exec --no-startup-id xsetroot -solid "#111111"
+
+#  Daemons  #
+exec --no-startup-id devmon --sync --exec-on-drive "urxvt -e ranger %d" 
+exec --no-startup-id clipit 
+exec --no-startup-id twmnd
+exec --no-startup-id redshift -b 1.0:0.2
+#exec --no-startup-id system-config-printer-applet
+exec --no-startup-id xautolock -time 5 -locker "/home/dunn/bin/lock" -notify 5 -notifier "/usr/bin/twmnc Lock screen activated" -corners 0+00 -cornerdelay 3 -cornerredelay 30
+#exec --no-startup-id ibus-daemon 
+exec --no-startup-id nm-applet &
+#exec --no-startup-id dropbox start &
+#exec --no-startup-id ifup br0
+#exec --no-startup-id syndaemon -d -K -i 1
+#exec --no-startup-id sh -c '/usr/bin/nvidia-settings --load-config-only'
+#exec --no-startup-id start-pulseaudio-x11 &
+#exec --no-startup-id xfce4-volumed &
+
+#  Apps  #
+#exec --no-startup-id i3-msg 'workspace $rdp, layout tabbed, workspace $main'
+### establish workspace layouts
+#exec --no-startup-id i3-msg 'workspace $gut, layout splitv'
+#exec --no-startup-id i3-msg 'workspace $tvc, layout tabbed'
+#exec --no-startup-id i3-msg 'workspace $rdp, layout tabbed'
+#exec --no-startup-id i3-msg 'workspace $vm, layout tabbed'
+#exec --no-startup-id i3-msg 'workspace $main, layout splitv'
+exec --no-startup-id urxvt -title main_urxvt -e screen
+exec --no-startup-id urxvt -title pianobar_urxvt -e screen
+exec i3-msg workspace 10:main
+exec --no-startup-id sh -c 'sleep 5s; owncloud &'
+exec chromium file:///Main_browser
+#exec --no-startup-id thunderbird
+#exec i3-msg focus output DP-1
+
+exec i3-msg workspace 3:gutter
+exec --no-startup-id slack
+###########
+#  i3Bar  #
+###########
+bar {
+        # Horizontal Display status bar (default)
+        output $h_output
+        status_command i3status -c ~/.i3/default_i3status.conf
+        font xft:Droid Sans Mono 8
+        binding_mode_indicator yes
+        tray_output $h_output
+        workspace_buttons yes 
+        strip_workspace_numbers yes
+        colors {
+            background #002b36
+            statusline #657b83
+            #separator  #859b93
+            #colorclass         <border>    <background>    <text>
+            focused_workspace   #002b36     #657b83         #002b36
+            active_workspace    #000b16     #455b63         #000b16
+            inactive_workspace  #354b53     #103b46         #455b63
+            urgent_workspace    #FFFFFF     #859b93         #h02b36
+            }
+}
+
+bar {
+# Vertical Display status bar
+        output $v_output
+        status_command i3status -c ~/.i3/vert_i3status.conf
+        #font xft:DejaVu Sans Mono 8
+        font xft:Droid Sans Mono 8
+        binding_mode_indicator yes
+        workspace_buttons yes 
+        strip_workspace_numbers yes
+        colors {
+            background #002b36
+            statusline #657b83
+            #separator  #859b93
+            #colorclass         <border>    <background>    <text>
+            focused_workspace   #002b36     #657b83         #002b36
+            active_workspace    #000b16     #455b63         #000b16
+            inactive_workspace  #354b53     #103b46         #455b63
+            urgent_workspace    #FFFFFF     #859b93         #h02b36
+            }
+}
+
+#################
+#  Keybindings  #
+#################
+set $mod Mod1
+
+set $up k
+set $down j
+set $left h
+set $right l
+
+floating_modifier $mod
+
+# control pianobar
+bindsym F9 exec echo -n 'p' > ~/.config/pianobar/ctl
+# start xcalc
+bindsym $mod+x exec xcalc
+bindsym XF86Calculator exec xcalc
+# start a terminal
+#bindsym Mod1+Return exec i3-sensible-terminal
+bindsym Mod1+Return exec --no-startup-id urxvt -e screen
+
+# unmount all removable with devmon
+bindsym Shift+F1 exec devmon --unmount-all
+
+# kill focused window
+bindsym Mod1+Shift+q kill
+
+# start dmenu (a program launcher)
+bindsym $mod+d exec --no-startup-id dmenu_run -p ">>" 
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
+
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
+bindsym $mod+space focus mode_toggle
+bindsym $mod+p focus parent
+bindsym $mod+c focus child
+
+bindsym $mod+Shift+$left move left 50
+bindsym $mod+Shift+$down move down 50
+bindsym $mod+Shift+$up move up 50
+bindsym $mod+Shift+$right move right 50
+
+# split orientation
+bindsym $mod+g split h
+bindsym $mod+v split v
+
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+bindsym $mod+Shift+space floating toggle
+
+bindsym $mod+Shift+grave move scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+grave scratchpad show
+bindsym $mod+minus scratchpad show
+
+# switch to workspace
+#bindsym $mod+1 workspace 1
+#bindsym $mod+2 workspace 2
+#bindsym $mod+3 workspace 3
+#bindsym $mod+4 workspace 4
+#bindsym $mod+5 workspace 5
+#bindsym $mod+6 workspace 6
+#bindsym $mod+7 workspace 7
+#bindsym $mod+8 workspace 8
+#bindsym $mod+9 workspace 9
+#bindsym $mod+0 workspace 10
+bindsym $mod+1 workspace $mail
+bindsym $mod+2 workspace $sub
+bindsym $mod+3 workspace $gut
+bindsym $mod+4 workspace $four
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace $invalid
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace $rdp
+bindsym $mod+9 workspace $sub2
+bindsym $mod+0 workspace $main
+
+
+# move focused container to workspace
+#bindsym $mod+Shift+1 move container to workspace 1
+#bindsym $mod+Shift+2 move container to workspace 2
+#bindsym $mod+Shift+3 move container to workspace 3
+#bindsym $mod+Shift+4 move container to workspace 4
+#bindsym $mod+Shift+5 move container to workspace 5
+#bindsym $mod+Shift+6 move container to workspace 6
+#bindsym $mod+Shift+7 move container to workspace 7
+#bindsym $mod+Shift+8 move container to workspace 8
+#bindsym $mod+Shift+9 move container to workspace 9
+#bindsym $mod+Shift+0 move container to workspace 10
+
+bindsym $mod+Shift+1 move container to workspace $mail
+bindsym $mod+Shift+2 move container to workspace $sub
+bindsym $mod+Shift+3 move container to workspace $gut
+bindsym $mod+Shift+4 move container to workspace $four
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace $invalid
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace $rdp
+bindsym $mod+Shift+9 move container to workspace $sub2
+bindsym $mod+Shift+0 move container to workspace $main
+
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-msg exit"
+
+mode "resize" {
+        bindsym $left       resize shrink width 10 px or 10 ppt
+        bindsym $down       resize grow height 10 px or 10 ppt
+        bindsym $up         resize shrink height 10 px or 10 ppt
+        bindsym $right      resize grow width 10 px or 10 ppt
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+bindsym $mod+t border normal
+bindsym $mod+Shift+t border 1pixel
+bindsym F10 exec --no-startup-id amixer sset Master toggle
+bindsym F12 exec --no-startup-id amixer sset Master 5%+
+bindsym F11 exec --no-startup-id amixer sset Master 5%-
+bindsym XF86AudioMute exec --no-startup-id amixer sset Master toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
+bindsym $mod+Shift+Left move workspace to output left
+bindsym $mod+Shift+Right move workspace to output right 
+bindsym mod4+Shift+l exec $HOME/bin/lock
