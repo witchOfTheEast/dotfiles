@@ -15,13 +15,11 @@ PS1='[\u@\h \W]\$ '
 # Root prompt
 #PS1="[\[\e[1;37m\]\u\[\e[0m\]@\[\e[1;31m\]\h\[\e[0m\] \W]\# "
 
-alias keep='/usr/bin/chromium "--profile-directory=Profile 1" --app-id=hmjkmjkepdijhoojdojkdfohbdgmmhki &'
-alias line='/usr/bin/chromium "--profile-directory=Profile 1" --app-id=menkifleemblimdogmoihpfopnplikde &'
-alias feh="feh -B black -."
-alias web="chromium --disable-sync-preferences --disk-cache-dir=/tmp/cache"
 alias grep="grep --color=auto"
 alias cal="cal -3"
 alias vim="vimx"
+alias opensesame="ssh-add -t 10h ~/.ssh/id_rsa"
+alias mv="mv -n"
 
 if [ -d $HOME/bin ];
     then PATH=$HOME/bin:$PATH;
@@ -29,7 +27,9 @@ fi
 
 # Export some variables
 # GTK_PATH was previously undefined. VMplayer complained about libcanberra. 
-export GTK_PATH=/usr/lib/gtk-2.0:/usr/lib/gtk-3.0
+#export GTK_PATH=/usr/lib/gtk-2.0:/usr/lib/gtk-3.0
+PATH=$PATH:$HOME/.local/bin
+
 export VISUAL="vim"
 # Append to history file, rather than overwrite
 shopt -s histappend
@@ -48,7 +48,6 @@ HISTCONTROL=ignoreboth
 HISTIGNORE='ls:bg:fg:history:exit'
 
 PROMPT_COMMAND='history -a'
-alias vc="vmplayer -H vc.hq.sdamedia.com -U hq\\\administrator"
 
 # For pretty less man colors
 #man() {
@@ -61,6 +60,5 @@ alias vc="vmplayer -H vc.hq.sdamedia.com -U hq\\\administrator"
 #        LESS_TERMCAP_us=$'\E[04;38;5;146m' \
 #        man "$@"
 #    }
-alias upicinga='ssh -t icinga sudo apt-get --assume-yes upgrade'
 
 xmodmap ~/.Xmodmap

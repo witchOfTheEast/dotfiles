@@ -1,6 +1,6 @@
 vbell off
-scrollback 5000
-defscrollback 5000
+scrollback 150000
+defscrollback 150000
 startup_message off
 hardstatus string "%{= kg}[ %{G}%H %{g}] %{=}%-w%{+b w}%n %t%{-b w}%+w %{= kG}%-=%D %m/%d/%y | %C:%s %A | %1`%{-}"
 caption always
@@ -9,4 +9,5 @@ escape ^Ee
 
 screen -t Console 0
 
-termcapinfo urxvt* ti@:te@
+termcapinfo *rxvt* ti@:te@
+#term rxvt-unicode-256color
