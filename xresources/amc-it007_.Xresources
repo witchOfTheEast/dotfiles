@@ -9,7 +9,7 @@ URxvt.keysym.M-s:           perl:keyboard-select:search
 ! this is also supposed to set the dpi, but does not appear to work
 ! cref: /etc/X11/xorg.conf.d/10-monitor.conf
 ! also this will not affect icon size
-Xft.dpi: 96
+Xft.dpi: 92
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintfull
@@ -40,8 +40,10 @@ URxvt*scrollstyle: plain
 
 ! Select the fonts to be used. This is a comma separated list of font names that are checked in order when trying to find glyphs for characters. The first font defines the cell size for characters; other fonts might be smaller, but not (in general) larger. A
 ! apparently improved performance can be gained by not using xft fonts or at least appending :antialias=false, but that makes my eyes hurt
-!URxvt*font: xft:DejaVu Sans Mono:size=8, xft:FontAwesome
-URxvt.font: xft:DroidSansMono:size=11, xft:FontAwesome
+URxvt.font: xft:DejaVuSansMono:size=11, xft:FontAwesome
+URxvt*font: xft:DejaVuSansMono:size=11, xft:FontAwesome
+!URxvt.font: xft:DroidSansMono:size=11, xft:FontAwesome
+!URxvt*font: xft:DroidSansMono:size=11, xft:FontAwesome
 
 
 ! True: scroll to bottom when tty receives output; option -si.  False: do not scroll to bottom when tty receives output; option +si.
