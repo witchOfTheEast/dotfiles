@@ -18,7 +18,7 @@ PS1="[\[\e[1;37m\]\u\[\e[0m\]@\[\e[1;31m\]\h\[\e[0m\] \W]$ "
 
 alias grep="grep --color=auto"
 alias cal="cal -3"
-alias vim="vimx"
+#alias vim="vimx"
 alias opensesame="ssh-add -t 10h ~/.ssh/id_rsa"
 alias mv="mv -n"
 

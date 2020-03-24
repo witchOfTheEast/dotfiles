@@ -15,10 +15,7 @@ PS1='[\u@\h \W]\$ '
 # Root prompt
 #PS1="[\[\e[1;37m\]\u\[\e[0m\]@\[\e[1;31m\]\h\[\e[0m\] \W]\# "
 
-alias keep='/usr/bin/chromium "--profile-directory=Profile 1" --app-id=hmjkmjkepdijhoojdojkdfohbdgmmhki &'
-alias line='/usr/bin/chromium "--profile-directory=Profile 1" --app-id=menkifleemblimdogmoihpfopnplikde &'
 alias feh="feh -B black -."
-alias web="chromium --disable-sync-preferences --disk-cache-dir=/tmp/cache"
 alias grep="grep --color=auto"
 alias cal="cal -3"
 
@@ -27,8 +24,6 @@ if [ -d $HOME/bin ];
 fi
 
 # Export some variables
-# GTK_PATH was previously undefined. VMplayer complained about libcanberra. 
-export GTK_PATH=/usr/lib/gtk-2.0:/usr/lib/gtk-3.0
 export VISUAL="vim"
 # Append to history file, rather than overwrite
 shopt -s histappend
@@ -59,4 +54,3 @@ PROMPT_COMMAND='history -a'
 #        LESS_TERMCAP_us=$'\E[04;38;5;146m' \
 #        man "$@"
 #    }
-alias upicinga='ssh -t icinga sudo apt-get --assume-yes upgrade'
